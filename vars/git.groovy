@@ -1,4 +1,4 @@
-def call(git){
+def call(git_branch, git_url ){
    echo 'cloning..'
-            git "${git}"
+    git branch: '${git_branch}', url: '${git_url}'
   }
