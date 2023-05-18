@@ -1,5 +1,4 @@
 def call(git){
    echo 'cloning..'
-                 git '$(git)'
-  
-}
+            git "${git}"
+  }
