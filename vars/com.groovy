@@ -1,4 +1,3 @@
-def call {
-  sh " mvn clean "
-  sh  " mvn package "
+def call{
+  sh " mvn clean package "
 }
